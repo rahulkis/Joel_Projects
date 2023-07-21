@@ -1,0 +1,128 @@
+{#
+
+The following variables are available.
+
+list[n].post.ID                            The ID of the post
+list[n].post.post_name                     The post slug
+list[n].post.post_title                    The title of the post
+list[n].post.post_date                     Format: 0000-00-00 00:00:00
+list[n].post.post_content                  The full content of the post
+list[n].post.post_excerpt                  User-defined post excerpt
+list[n].post.post_modified                 Format: 0000-00-00 00:00:00
+list[n].post.custom_field                  Value of a custom_field
+list[n].post.__get("Custom field")         Custom fields with spaces
+list[n].post_content                       Preprocessed content of post with shortcodes
+list[n].postmeta_keys                      List of custom fields/metadata
+list[n].author.ID                          The user ID
+list[n].author.first_name                  First name of the user
+list[n].author.last_name                   Last name of the user
+list[n].categories[n].name                 The category name
+list[n].categories[n].slug                 The category slug
+list[n].categories[n].term_group           The category term_group
+list[n].categories[n].taxonomy             The category taxonomy name
+list[n].categories[n].description          The category description
+list[n].comments[n].comment_ID             The Comment ID
+list[n].comments[n].comment_author         Comment author name
+list[n].comments[n].comment_author_email   Comment author email address
+list[n].comments[n].comment_date           Comment date in YYYY-MM-DD HH:MM:SS format
+list[n].comments[n].comment_content        Comment content
+list[n].comments[n].comment_karma          Comment karma count
+
+#}
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Posts</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+
+    <body>
+        {% for p in list %}
+            <article>
+
+                <h1>{{ p.post.post_title | raw }}</h1>
+
+                <header>
+                    <table width="100%">
+                        <tbody>
+                            {% if options.aspose_doc_exporter_post_author %}
+                                <tr>
+                                    <td width="33%"><b>Author</b></td>
+                                    <td>{{ p.author.display_name }}</td>
+                                </tr>
+                            {% endif %}
+                            {% if options.aspose_doc_exporter_post_date %}
+                                <tr>
+                                    <td width="33%"><b>Date</b></td>
+                                    <td><time>{{ p.post.post_date }}</time></td>
+                                </tr>
+                            {% endif %}
+                            {% if options.aspose_doc_exporter_post_categories %}
+                                <tr>
+                                    <td width="33%"><b>Categories</b></td>
+                                    <td>
+                                        {% for c in p.categories %}
+                                            {{ c.name }}
+                                        {% endfor %}
+                                    </td>
+                                </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </header>
+
+                {% if options.aspose_doc_exporter_excerpt %}
+                    <summary>
+                        <h3>{{ p.post.post_excerpt | raw }}</h3>
+                    </summary>
+                {% endif %}
+
+                {#
+
+                Custom fields are also supported by the post object.
+
+                For example, to display a custom field named "notes",
+                use {{ p.post.notes }} or {{ p.post.__get("notes") }}.
+
+                #}
+
+                {% if options.aspose_doc_exporter_content %}
+                    <main>
+                        {{ p.post_content | raw }}
+                    </main>
+                {% endif %}
+
+                <footer>
+
+                    {% if options.aspose_doc_exporter_metadata %}
+                        <h3>Metadata</h3>
+                        <table width="100%">
+                            <tbody>
+                                {% for key in p.postmeta_keys %}
+                                    <tr>
+                                        <td width="33%"><b>{{ key }}</b></td>
+                                        <td>{{ p.post.__get(key) }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    {% endif %}
+
+                    {% if p.comments is not empty and options.aspose_doc_exporter_post_comments %}
+                        <h3>{{ options.aspose_doc_exporter_comments_text | default("Comments") }}</h3>
+                        {% for c in p.comments %}
+                            <h5>{{ c.comment_author }}</h5>
+                            <p>{{ c.comment_content | raw }}</p>
+                        {% endfor %}
+                    {% endif %}
+
+                </footer>
+
+            </article>
+
+        {% endfor %}
+    </body>
+</html>
+

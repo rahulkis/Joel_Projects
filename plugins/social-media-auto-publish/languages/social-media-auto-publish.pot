@@ -1,0 +1,1649 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: multilang\n"
+"POT-Creation-Date: 2022-04-25 16:42+0530\n"
+"PO-Revision-Date: 2022-03-10 12:01+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: social-media-auto-publish.php\n"
+"X-Poedit-SearchPath-1: admin/suggest_feature.php\n"
+"X-Poedit-SearchPath-2: admin/settings.php\n"
+"X-Poedit-SearchPath-3: admin/publish.php\n"
+"X-Poedit-SearchPath-4: admin/metabox.php\n"
+"X-Poedit-SearchPath-5: admin/menu.php\n"
+"X-Poedit-SearchPath-6: admin/manage-auth.php\n"
+"X-Poedit-SearchPath-7: admin/logs.php\n"
+"X-Poedit-SearchPath-8: admin/install.php\n"
+"X-Poedit-SearchPath-9: admin/header.php\n"
+"X-Poedit-SearchPath-10: admin/footer.php\n"
+"X-Poedit-SearchPath-11: admin/destruction.php\n"
+"X-Poedit-SearchPath-12: admin/authorization.php\n"
+"X-Poedit-SearchPath-13: admin/ajax-backlink.php\n"
+"X-Poedit-SearchPath-14: admin/admin-notices.php\n"
+"X-Poedit-SearchPath-15: admin/about.php\n"
+
+#: admin/about.php:9
+#, php-format
+msgid ""
+"%s automatically publishes posts from your blog to your Facebook, Twitter , "
+"Instagram and LinkedIn pages. It allows you to filter posts based on post-"
+"types and categories. %s is developed and maintained by"
+msgstr ""
+
+#: admin/about.php:17
+#, php-format
+msgid ""
+"If you would like to have more features , please try <a href=\"%s\" target="
+"\"_blank\">%s</a> which is a premium version of this plugin. We have "
+"included a quick comparison of the free and premium plugins for your "
+"reference."
+msgstr ""
+
+#: admin/about.php:24
+msgid "Feature group"
+msgstr ""
+
+#: admin/about.php:25
+msgid "Feature"
+msgstr ""
+
+#: admin/about.php:27
+#, php-format
+msgid "%s Free"
+msgstr ""
+
+#: admin/about.php:30 admin/about.php:32
+#, php-format
+msgid "%s premium"
+msgstr ""
+
+#: admin/about.php:37
+msgid "Supported Media"
+msgstr ""
+
+#: admin/about.php:38 admin/admin-notices.php:56 admin/metabox.php:370
+msgid "Facebook"
+msgstr ""
+
+#: admin/about.php:48 admin/admin-notices.php:57 admin/metabox.php:558
+msgid "Twitter"
+msgstr ""
+
+#: admin/about.php:57 admin/admin-notices.php:58 admin/metabox.php:736
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/about.php:66 admin/metabox.php:474
+msgid "Instagram"
+msgstr ""
+
+#: admin/about.php:75 admin/metabox.php:645
+msgid "Tumblr"
+msgstr ""
+
+#: admin/about.php:84
+msgid "Pinterest"
+msgstr ""
+
+#: admin/about.php:96
+msgid "Posting Options"
+msgstr ""
+
+#: admin/about.php:97
+msgid "Publish to facebook pages"
+msgstr ""
+
+#: admin/about.php:107
+msgid "Publish to facebook groups"
+msgstr ""
+
+#: admin/about.php:117
+msgid "Publish to twitter profile"
+msgstr ""
+
+#: admin/about.php:127
+msgid "Publish to linkedin profile"
+msgstr ""
+
+#: admin/about.php:136
+msgid "Publish to instagram Business accounts"
+msgstr ""
+
+#: admin/about.php:145
+msgid "Publish to linkedin company pages"
+msgstr ""
+
+#: admin/about.php:155
+msgid "Publish to tumblr profile"
+msgstr ""
+
+#: admin/about.php:165
+msgid "Publish to pinterest boards"
+msgstr ""
+
+#: admin/about.php:175
+msgid "Option to add twitter image description for visually impaired people"
+msgstr ""
+
+#: admin/about.php:185
+msgid "Option to republish existing posts"
+msgstr ""
+
+#: admin/about.php:195
+msgid "Publish to multiple social media accounts"
+msgstr ""
+
+#: admin/about.php:205
+msgid ""
+"Seperate message formats for publishing to multiple social media accounts"
+msgstr ""
+
+#: admin/about.php:215
+msgid "Save auto publish settings of individual posts"
+msgstr ""
+
+#: admin/about.php:225
+msgid ""
+"Hash Tags support for Facebook, Twitter, Linkedin, Instagram, Tumblr and "
+"Pinterest"
+msgstr ""
+
+#: admin/about.php:234
+msgid "Option to use post tags as hash tags"
+msgstr ""
+
+#: admin/about.php:244
+msgid "Enable/Disable SSL peer verification"
+msgstr ""
+
+#: admin/about.php:256
+msgid "Image Options"
+msgstr ""
+
+#: admin/about.php:257
+msgid "Publish images along with post content"
+msgstr ""
+
+#: admin/about.php:267
+msgid ""
+"Separate default image url for publishing to multiple social media accounts"
+msgstr ""
+
+#: admin/about.php:277
+msgid ""
+"Option to specify preference from featured image, post content, post meta "
+"and open graph tags"
+msgstr ""
+
+#: admin/about.php:287
+msgid ""
+"Publish multiple images to facebook, tumblr, linkedin and twitter along with "
+"post content"
+msgstr ""
+
+#: admin/about.php:297
+msgid "Option to specify multiphoto preference from post content and post meta"
+msgstr ""
+
+#: admin/about.php:309
+msgid "Video/Audio Options"
+msgstr ""
+
+#: admin/about.php:310
+msgid ""
+"Publish video to facebook, tumblr,Linkedin, Instagram and twitter along with "
+"post content"
+msgstr ""
+
+#: admin/about.php:320
+msgid ""
+"Option to specify preference from post content, post meta and open graph tags"
+msgstr ""
+
+#: admin/about.php:329
+msgid "Publish audio to tumblr along with post content"
+msgstr ""
+
+#: admin/about.php:338
+msgid ""
+"Option to specify audio preference from  post content, post meta and open "
+"graph tags"
+msgstr ""
+
+#: admin/about.php:349
+msgid "Filter Options"
+msgstr ""
+
+#: admin/about.php:350
+msgid "Filter posts to publish based on categories"
+msgstr ""
+
+#: admin/about.php:360
+msgid "Filter posts to publish based on custom post types"
+msgstr ""
+
+#: admin/about.php:369
+msgid "Filter posts to publish based on sticky posts"
+msgstr ""
+
+#: admin/about.php:378
+msgid "Configuration to enable/disable page publishing"
+msgstr ""
+
+#: admin/about.php:388
+msgid "Category filter for individual accounts"
+msgstr ""
+
+#: admin/about.php:398
+msgid "Custom post type filter for individual accounts"
+msgstr ""
+
+#: admin/about.php:408
+msgid "Enable/Disable page publishing for individual accounts"
+msgstr ""
+
+#: admin/about.php:417
+msgid "Override auto publish scheduling for individual accounts"
+msgstr ""
+
+#: admin/about.php:426
+msgid "Override auto publish based on sticky posts for individual accounts"
+msgstr ""
+
+#: admin/about.php:437
+msgid "Scheduling"
+msgstr ""
+
+#: admin/about.php:438
+msgid "Instantaneous post publishing"
+msgstr ""
+
+#: admin/about.php:448
+msgid "Scheduled post publishing using cron"
+msgstr ""
+
+#: admin/about.php:458
+msgid "Status summary of auto publish tasks by mail"
+msgstr ""
+
+#: admin/about.php:468
+msgid "Configurable auto publishing time interval"
+msgstr ""
+
+#: admin/about.php:482
+msgid "Publishing History"
+msgstr ""
+
+#: admin/about.php:483
+msgid "View auto publish history"
+msgstr ""
+
+#: admin/about.php:492
+msgid "View auto publish error logs"
+msgstr ""
+
+#: admin/about.php:502
+msgid "Option to republish post"
+msgstr ""
+
+#: admin/about.php:512
+msgid "Option to reschedule publishing"
+msgstr ""
+
+#: admin/about.php:523
+msgid "Installation and Support"
+msgstr ""
+
+#: admin/about.php:524
+msgid "Free Installation"
+msgstr ""
+
+#: admin/about.php:533
+msgid "Privilege customer support"
+msgstr ""
+
+#: admin/about.php:543
+msgid "Addon Features"
+msgstr ""
+
+#: admin/about.php:544
+msgid "Advanced Autopublish Scheduler"
+msgstr ""
+
+#: admin/about.php:553
+msgid "URL-Shortener"
+msgstr ""
+
+#: admin/about.php:562
+msgid "Privilege Management"
+msgstr ""
+
+#: admin/about.php:571
+msgid "Other"
+msgstr ""
+
+#: admin/about.php:573
+#, php-format
+msgid ""
+"%s API package for 1 year, worth 20 USD(1 fb account @ 10 api calls per "
+"hour, 1 linkedin account @ 25 api per day)"
+msgstr ""
+
+#: admin/about.php:575
+msgid "1 month free subscription"
+msgstr ""
+
+#: admin/about.php:576
+msgid "1 year free subscription"
+msgstr ""
+
+#: admin/about.php:579
+msgid "Price"
+msgstr ""
+
+#: admin/about.php:580
+msgid "FREE"
+msgstr ""
+
+#: admin/about.php:581
+msgid "Starts from 39 USD"
+msgstr ""
+
+#: admin/about.php:582
+msgid "Starts from 69 USD"
+msgstr ""
+
+#: admin/about.php:587
+msgid "Purchase"
+msgstr ""
+
+#: admin/about.php:589
+msgid "Buy Now"
+msgstr ""
+
+#: admin/about.php:596
+msgid "Pinterest is added on experimental basis."
+msgstr ""
+
+#: admin/admin-notices.php:41
+#, php-format
+msgid ""
+"Thank you for using <a href=\"%s\" target=\"_blank\"> %s </a> plugin from <a "
+"href=\"%s\" target=\"_blank\"> %s </a>. Would you consider supporting us "
+"with the continued development of the plugin using any of the below methods?"
+msgstr ""
+
+#: admin/admin-notices.php:45
+msgid "Rate it 5★'s on wordpress"
+msgstr ""
+
+#: admin/admin-notices.php:47
+msgid "Enable Backlink"
+msgstr ""
+
+#: admin/admin-notices.php:49
+msgid "Share on"
+msgstr ""
+
+#: admin/admin-notices.php:50 admin/footer.php:45 admin/header.php:97
+msgid "Donate"
+msgstr ""
+
+#: admin/admin-notices.php:52
+msgid "Don't Show This Again"
+msgstr ""
+
+#: admin/footer.php:12
+#, php-format
+msgid "Fully Featured %s Plugin"
+msgstr ""
+
+#: admin/footer.php:13
+msgid "Just 39 USD"
+msgstr ""
+
+#: admin/footer.php:23
+msgid "Compare Features"
+msgstr ""
+
+#: admin/footer.php:37
+msgid "Follow Us"
+msgstr ""
+
+#: admin/footer.php:44
+msgid "Support"
+msgstr ""
+
+#: admin/footer.php:46
+msgid "Contact Us"
+msgstr ""
+
+#: admin/footer.php:47
+msgid "Please Rate Us"
+msgstr ""
+
+#: admin/footer.php:51
+msgid "Create a ticket at Wordpress forum"
+msgstr ""
+
+#: admin/footer.php:54
+msgid "Stay tuned for our updates"
+msgstr ""
+
+#: admin/footer.php:118
+msgid "Name"
+msgstr ""
+
+#: admin/footer.php:134
+msgid "Email"
+msgstr ""
+
+#: admin/footer.php:136
+msgid "Subscribe"
+msgstr ""
+
+#: admin/footer.php:150
+msgid "Our Plugins"
+msgstr ""
+
+#: admin/footer.php:171
+msgid "Powered by"
+msgstr ""
+
+#: admin/header.php:19 admin/settings.php:485
+msgid "Settings updated successfully."
+msgstr ""
+
+#: admin/header.php:19 admin/header.php:33 admin/header.php:49
+#: admin/manage-auth.php:9 admin/manage-auth.php:138 admin/manage-auth.php:201
+#: admin/manage-auth.php:265 admin/manage-auth.php:330
+#: admin/manage-auth.php:407 admin/manage-auth.php:453
+#: admin/manage-auth.php:500 admin/manage-auth.php:547 admin/settings.php:34
+#: admin/settings.php:51 admin/settings.php:486 admin/settings.php:494
+#: admin/settings.php:503 admin/settings.php:514 admin/settings.php:521
+#: admin/settings.php:532 admin/settings.php:541 admin/settings.php:572
+#: admin/settings.php:2617 admin/settings.php:2642 admin/settings.php:2670
+#: admin/settings.php:2695 admin/settings.php:2729 admin/suggest_feature.php:11
+#: admin/suggest_feature.php:19 admin/suggest_feature.php:27
+msgid "Dismiss"
+msgstr ""
+
+#: admin/header.php:32
+msgid "Thank you for enabling backlink."
+msgstr ""
+
+#: admin/header.php:48
+msgid "Please do a favour by enabling backlink to our site."
+msgstr ""
+
+#: admin/header.php:48
+msgid "Okay, Enable"
+msgstr ""
+
+#: admin/header.php:100
+msgid "FAQ"
+msgstr ""
+
+#: admin/header.php:103
+msgid "Readme"
+msgstr ""
+
+#: admin/header.php:106 admin/menu.php:40
+msgid "About"
+msgstr ""
+
+#: admin/logs.php:13
+msgid "Auto Publish Logs"
+msgstr ""
+
+#: admin/logs.php:14
+msgid "Last ten logs of each social media account"
+msgstr ""
+
+#: admin/logs.php:19
+msgid "Post Id"
+msgstr ""
+
+#: admin/logs.php:20
+msgid "Post Title"
+msgstr ""
+
+#: admin/logs.php:21
+msgid "Account type"
+msgstr ""
+
+#: admin/logs.php:22
+msgid "Published On"
+msgstr ""
+
+#: admin/logs.php:23
+msgid "Status"
+msgstr ""
+
+#: admin/logs.php:335
+msgid "No logs Found"
+msgstr ""
+
+#: admin/logs.php:344
+msgid ""
+"For publishing a simple text message, it will take 1 API call, Upload image "
+"option will take 2-3 API calls in Facebook and 4 api calls in Linkedin and "
+"attach link option take 1 API call(2 api calls for facebook if enabled "
+"option for clearing cache)."
+msgstr ""
+
+#: admin/manage-auth.php:7
+#, php-format
+msgid "%s Package updated successfully."
+msgstr ""
+
+#: admin/manage-auth.php:25
+#, php-format
+msgid ""
+"Please authorize %s app under Facebook/LinkedIn settings to access this page."
+msgstr ""
+
+#: admin/manage-auth.php:601 admin/menu.php:38
+msgid "Manage Authorizations"
+msgstr ""
+
+#: admin/manage-auth.php:603
+msgid "Facebook Authorizations"
+msgstr ""
+
+#: admin/manage-auth.php:605
+msgid "LinkedIn Authorizations"
+msgstr ""
+
+#: admin/manage-auth.php:607
+msgid "Instagram Authorizations"
+msgstr ""
+
+#: admin/manage-auth.php:609
+msgid "Twitter Authorizations"
+msgstr ""
+
+#: admin/manage-auth.php:634 admin/manage-auth.php:785
+#: admin/manage-auth.php:925 admin/manage-auth.php:1059
+msgid "Current Plan"
+msgstr ""
+
+#: admin/manage-auth.php:636
+msgid "Allowed Facebook users"
+msgstr ""
+
+#: admin/manage-auth.php:637 admin/manage-auth.php:788
+#: admin/manage-auth.php:928 admin/manage-auth.php:1062
+msgid "API limit per account"
+msgstr ""
+
+#: admin/manage-auth.php:637 admin/manage-auth.php:928
+#: admin/manage-auth.php:1062
+msgid "per hour"
+msgstr ""
+
+#: admin/manage-auth.php:638 admin/manage-auth.php:789
+#: admin/manage-auth.php:929 admin/manage-auth.php:1063
+msgid "Package Expiry"
+msgstr ""
+
+#: admin/manage-auth.php:639 admin/manage-auth.php:790
+#: admin/manage-auth.php:930 admin/manage-auth.php:1064
+msgid "Package Status"
+msgstr ""
+
+#: admin/manage-auth.php:649 admin/manage-auth.php:800
+#: admin/manage-auth.php:940 admin/manage-auth.php:1074
+msgid "Upgrade/Renew"
+msgstr ""
+
+#: admin/manage-auth.php:656 admin/manage-auth.php:809
+#: admin/manage-auth.php:949 admin/manage-auth.php:1083
+msgid "Show all entries"
+msgstr ""
+
+#: admin/manage-auth.php:657 admin/manage-auth.php:810
+#: admin/manage-auth.php:950 admin/manage-auth.php:1084
+msgid "Show entries from current wp installation"
+msgstr ""
+
+#: admin/manage-auth.php:658 admin/manage-auth.php:811
+#: admin/manage-auth.php:951 admin/manage-auth.php:1085
+msgid "Show entries from other wp installations"
+msgstr ""
+
+#: admin/manage-auth.php:664
+msgid "Facebook username"
+msgstr ""
+
+#: admin/manage-auth.php:665 admin/manage-auth.php:817
+#: admin/manage-auth.php:957 admin/manage-auth.php:1091
+msgid "Selected pages"
+msgstr ""
+
+#: admin/manage-auth.php:666
+msgid "Selected groups"
+msgstr ""
+
+#: admin/manage-auth.php:668
+#, php-format
+msgid "%s url"
+msgstr ""
+
+#: admin/manage-auth.php:670 admin/manage-auth.php:820
+#: admin/manage-auth.php:960 admin/manage-auth.php:1094
+msgid "Plugin"
+msgstr ""
+
+#: admin/manage-auth.php:672
+#, php-format
+msgid "Account ID %s"
+msgstr ""
+
+#: admin/manage-auth.php:674 admin/manage-auth.php:822
+#: admin/manage-auth.php:962 admin/manage-auth.php:1096
+msgid "Action"
+msgstr ""
+
+#: admin/manage-auth.php:714 admin/manage-auth.php:852
+#: admin/manage-auth.php:993 admin/manage-auth.php:1128
+msgid "Not Applicable"
+msgstr ""
+
+#: admin/manage-auth.php:720 admin/manage-auth.php:743
+#: admin/manage-auth.php:859 admin/manage-auth.php:881
+#: admin/manage-auth.php:1000 admin/manage-auth.php:1021
+#: admin/manage-auth.php:1135 admin/manage-auth.php:1157
+msgid "Delete"
+msgstr ""
+
+#: admin/manage-auth.php:733 admin/manage-auth.php:872
+#: admin/manage-auth.php:1012 admin/manage-auth.php:1148
+msgid "(Inactive)"
+msgstr ""
+
+#: admin/manage-auth.php:754 admin/manage-auth.php:891
+#: admin/manage-auth.php:1031 admin/manage-auth.php:1167
+msgid "No Authorizations"
+msgstr ""
+
+#: admin/manage-auth.php:762 admin/manage-auth.php:899
+#: admin/manage-auth.php:1175
+msgid "Unable to connect. Please check your curl and firewall settings"
+msgstr ""
+
+#: admin/manage-auth.php:787
+msgid "Allowed LinkedIn users"
+msgstr ""
+
+#: admin/manage-auth.php:788
+msgid "per day"
+msgstr ""
+
+#: admin/manage-auth.php:816
+msgid "LinkedIn user name"
+msgstr ""
+
+#: admin/manage-auth.php:927
+msgid "Allowed Instagram users"
+msgstr ""
+
+#: admin/manage-auth.php:956
+msgid "Instagram user name"
+msgstr ""
+
+#: admin/manage-auth.php:1061
+msgid "Allowed Twitter users"
+msgstr ""
+
+#: admin/manage-auth.php:1090
+msgid "Twitter user name"
+msgstr ""
+
+#: admin/menu.php:13
+msgid "Please check whether the email is correct."
+msgstr ""
+
+#: admin/menu.php:14
+msgid "Select atleast one list."
+msgstr ""
+
+#: admin/menu.php:15
+msgid "You do not have sufficient permissions"
+msgstr ""
+
+#: admin/menu.php:16
+#, php-format
+msgid "Account details successfully deleted from %s"
+msgstr ""
+
+#: admin/menu.php:17
+msgid "Thank you for enabling backlink !"
+msgstr ""
+
+#: admin/menu.php:18
+#, php-format
+msgid "Please connect your %s member account"
+msgstr ""
+
+#: admin/menu.php:19
+#, php-format
+msgid "In-active Facebook account successfully deleted from %s"
+msgstr ""
+
+#: admin/menu.php:20
+#, php-format
+msgid "In-active LinkedIn account successfully deleted from %s"
+msgstr ""
+
+#: admin/menu.php:21
+#, php-format
+msgid "In-active Twitter account successfully deleted from %s"
+msgstr ""
+
+#: admin/menu.php:22
+#, php-format
+msgid "In-active Instagram account successfully deleted from %s"
+msgstr ""
+
+#: admin/menu.php:36
+msgid "Settings"
+msgstr ""
+
+#: admin/menu.php:39
+msgid "Logs"
+msgstr ""
+
+#: admin/menu.php:41
+msgid "Suggest a Feature"
+msgstr ""
+
+#: admin/metabox.php:377 admin/settings.php:721
+msgid "Enable auto publish post to my facebook account"
+msgstr ""
+
+#: admin/metabox.php:380 admin/metabox.php:484 admin/metabox.php:568
+#: admin/metabox.php:581 admin/metabox.php:655 admin/metabox.php:746
+#: admin/settings.php:724 admin/settings.php:857 admin/settings.php:1073
+#: admin/settings.php:1358 admin/settings.php:1479 admin/settings.php:1609
+#: admin/settings.php:1709 admin/settings.php:1714 admin/settings.php:1727
+#: admin/settings.php:1954 admin/settings.php:2069 admin/settings.php:2077
+#: admin/settings.php:2126 admin/settings.php:2136 admin/settings.php:2207
+#: admin/settings.php:2258 admin/settings.php:2268
+msgid "Yes"
+msgstr ""
+
+#: admin/metabox.php:381 admin/metabox.php:485 admin/metabox.php:569
+#: admin/metabox.php:579 admin/metabox.php:656 admin/metabox.php:663
+#: admin/metabox.php:747 admin/settings.php:725 admin/settings.php:858
+#: admin/settings.php:1074 admin/settings.php:1359 admin/settings.php:1480
+#: admin/settings.php:1610 admin/settings.php:1710 admin/settings.php:1715
+#: admin/settings.php:1728 admin/settings.php:1955 admin/settings.php:2007
+#: admin/settings.php:2070 admin/settings.php:2078 admin/settings.php:2127
+#: admin/settings.php:2137 admin/settings.php:2208 admin/settings.php:2259
+#: admin/settings.php:2269
+msgid "No"
+msgstr ""
+
+#: admin/metabox.php:385 admin/metabox.php:489 admin/metabox.php:795
+#: admin/settings.php:796 admin/settings.php:1143 admin/settings.php:1689
+msgid "Posting method"
+msgstr ""
+
+#: admin/metabox.php:389 admin/metabox.php:799 admin/settings.php:802
+#: admin/settings.php:1694
+msgid "Simple text message"
+msgstr ""
+
+#: admin/metabox.php:391 admin/metabox.php:492 admin/metabox.php:803
+#: admin/settings.php:1698
+msgid "Text message with image"
+msgstr ""
+
+#: admin/metabox.php:393 admin/settings.php:806
+msgid "Upload image to app album"
+msgstr ""
+
+#: admin/metabox.php:395 admin/settings.php:808
+msgid "Upload image to timeline album"
+msgstr ""
+
+#: admin/metabox.php:398 admin/settings.php:804 admin/settings.php:811
+msgid "Text message with attached link"
+msgstr ""
+
+#: admin/metabox.php:400 admin/metabox.php:801 admin/settings.php:813
+#: admin/settings.php:1696
+msgid "Attach your blog post"
+msgstr ""
+
+#: admin/metabox.php:403 admin/settings.php:816
+msgid "Share a link to your blog post"
+msgstr ""
+
+#: admin/metabox.php:409 admin/metabox.php:497 admin/metabox.php:587
+#: admin/metabox.php:671 admin/metabox.php:762 admin/settings.php:822
+#: admin/settings.php:1149 admin/settings.php:1445 admin/settings.php:1658
+#: admin/settings.php:2014
+msgid "Message format for posting"
+msgstr ""
+
+#: admin/metabox.php:412 admin/metabox.php:500 admin/metabox.php:590
+#: admin/metabox.php:675 admin/metabox.php:766 admin/settings.php:825
+#: admin/settings.php:1152 admin/settings.php:1449 admin/settings.php:1662
+#: admin/settings.php:2018
+msgid "Insert the title of your post."
+msgstr ""
+
+#: admin/metabox.php:413 admin/metabox.php:501 admin/metabox.php:591
+#: admin/metabox.php:676 admin/metabox.php:767 admin/settings.php:826
+#: admin/settings.php:1153 admin/settings.php:1450 admin/settings.php:1663
+#: admin/settings.php:2019
+msgid "Insert the URL where your post is displayed."
+msgstr ""
+
+#: admin/metabox.php:414 admin/metabox.php:502 admin/metabox.php:592
+#: admin/metabox.php:677 admin/metabox.php:768 admin/settings.php:827
+#: admin/settings.php:1154 admin/settings.php:1451 admin/settings.php:1664
+#: admin/settings.php:2020
+msgid "Insert the excerpt of your post."
+msgstr ""
+
+#: admin/metabox.php:415 admin/metabox.php:503 admin/metabox.php:593
+#: admin/metabox.php:678 admin/metabox.php:769 admin/settings.php:828
+#: admin/settings.php:1155 admin/settings.php:1452 admin/settings.php:1665
+#: admin/settings.php:2021
+msgid "Insert the description of your post."
+msgstr ""
+
+#: admin/metabox.php:416 admin/metabox.php:504 admin/metabox.php:594
+#: admin/metabox.php:679 admin/metabox.php:770 admin/settings.php:829
+#: admin/settings.php:1156 admin/settings.php:1453 admin/settings.php:1666
+#: admin/settings.php:2022
+msgid "Insert the name of your blog."
+msgstr ""
+
+#: admin/metabox.php:417 admin/metabox.php:505 admin/metabox.php:595
+#: admin/metabox.php:680 admin/metabox.php:771 admin/settings.php:830
+#: admin/settings.php:1157 admin/settings.php:1454 admin/settings.php:1667
+#: admin/settings.php:2023
+msgid "Insert the nicename of the author."
+msgstr ""
+
+#: admin/metabox.php:418 admin/metabox.php:506 admin/metabox.php:596
+#: admin/metabox.php:681 admin/metabox.php:772 admin/settings.php:831
+#: admin/settings.php:1158 admin/settings.php:1455 admin/settings.php:1668
+#: admin/settings.php:2024
+msgid "Insert the ID of your post."
+msgstr ""
+
+#: admin/metabox.php:419 admin/metabox.php:507 admin/metabox.php:597
+#: admin/metabox.php:682 admin/metabox.php:773 admin/settings.php:832
+#: admin/settings.php:1159 admin/settings.php:1456 admin/settings.php:1669
+#: admin/settings.php:2025
+msgid "Insert the publish date of your post."
+msgstr ""
+
+#: admin/metabox.php:420 admin/metabox.php:508 admin/metabox.php:598
+#: admin/metabox.php:683 admin/metabox.php:774 admin/settings.php:833
+#: admin/settings.php:1160 admin/settings.php:1457 admin/settings.php:1670
+#: admin/settings.php:2026
+msgid "Insert the display name of the author."
+msgstr ""
+
+#: admin/metabox.php:425 admin/metabox.php:513 admin/metabox.php:605
+#: admin/metabox.php:687 admin/metabox.php:779 admin/settings.php:837
+#: admin/settings.php:1164 admin/settings.php:1461 admin/settings.php:1674
+#: admin/settings.php:2031
+msgid "Select"
+msgstr ""
+
+#: admin/metabox.php:481 admin/settings.php:1070
+msgid "Enable auto publish post to my instagram account"
+msgstr ""
+
+#: admin/metabox.php:565
+msgid "Enable auto publish posts to my twitter account"
+msgstr ""
+
+#: admin/metabox.php:574 admin/settings.php:1476
+msgid "Attach image to twitter post"
+msgstr ""
+
+#: admin/metabox.php:652 admin/settings.php:1951
+msgid "Enable auto publish posts to my tumblr account"
+msgstr ""
+
+#: admin/metabox.php:660 admin/settings.php:2003
+msgid "Attachment to be posted to Tumblr"
+msgstr ""
+
+#: admin/metabox.php:664 admin/settings.php:2008
+msgid "Image"
+msgstr ""
+
+#: admin/metabox.php:665 admin/settings.php:2009
+msgid "Link"
+msgstr ""
+
+#: admin/metabox.php:743 admin/settings.php:1607
+msgid "Enable auto publish posts to my linkedin account"
+msgstr ""
+
+#: admin/metabox.php:753 admin/settings.php:1735
+msgid "Share post content with"
+msgstr ""
+
+#: admin/metabox.php:757 admin/settings.php:1738
+msgid "Public"
+msgstr ""
+
+#: admin/metabox.php:757
+msgid "Connections only"
+msgstr ""
+
+#: admin/settings.php:32
+msgid ""
+"Thanks again for using the plugin. We will never show the message again."
+msgstr ""
+
+#: admin/settings.php:108
+msgid "Please fill facebook application name."
+msgstr ""
+
+#: admin/settings.php:113
+msgid "Please fill facebook application id."
+msgstr ""
+
+#: admin/settings.php:118
+msgid "Please fill facebook application secret."
+msgstr ""
+
+#: admin/settings.php:191
+msgid "Please fill instagram application name."
+msgstr ""
+
+#: admin/settings.php:196
+msgid "Please fill instagram application id."
+msgstr ""
+
+#: admin/settings.php:201
+msgid "Please fill instagram application secret."
+msgstr ""
+
+#: admin/settings.php:268 admin/settings.php:433
+msgid "Please fill api key."
+msgstr ""
+
+#: admin/settings.php:273 admin/settings.php:438
+msgid "Please fill api secret."
+msgstr ""
+
+#: admin/settings.php:278
+msgid "Please fill twitter username."
+msgstr ""
+
+#: admin/settings.php:283
+msgid "Please fill twitter access token."
+msgstr ""
+
+#: admin/settings.php:288
+msgid "Please fill twitter access token secret."
+msgstr ""
+
+#: admin/settings.php:293 admin/settings.php:383 admin/settings.php:458
+msgid "Please fill message format for posting."
+msgstr ""
+
+#: admin/settings.php:368
+msgid "Please fill linkedin api key"
+msgstr ""
+
+#: admin/settings.php:373
+msgid "Please fill linkedin api secret"
+msgstr ""
+
+#: admin/settings.php:378
+msgid "Please select share post to profile or company page"
+msgstr ""
+
+#: admin/settings.php:443
+msgid "Please fill tumblr username."
+msgstr ""
+
+#: admin/settings.php:448
+msgid "Please fill tumblr access token."
+msgstr ""
+
+#: admin/settings.php:453
+msgid "Please fill tumblr access token secret."
+msgstr ""
+
+#: admin/settings.php:493
+msgid "Unable to authorize the linkedin application. Please check the details."
+msgstr ""
+
+#: admin/settings.php:502
+msgid "The state does not match. You may be a victim of CSRF."
+msgstr ""
+
+#: admin/settings.php:513
+msgid ""
+"Unable to authorize the facebook application. Please check your curl/fopen "
+"and firewall settings."
+msgstr ""
+
+#: admin/settings.php:520
+msgid "Account has been authenticated successfully."
+msgstr ""
+
+#: admin/settings.php:530
+#, php-format
+msgid "Successfully connected to %s member area"
+msgstr ""
+
+#: admin/settings.php:540
+msgid "Selected pages saved successfully."
+msgstr ""
+
+#: admin/settings.php:601
+msgid "Facebook Settings"
+msgstr ""
+
+#: admin/settings.php:602
+msgid "Twitter Settings"
+msgstr ""
+
+#: admin/settings.php:603
+msgid "LinkedIn Settings"
+msgstr ""
+
+#: admin/settings.php:604
+msgid "instagram Settings"
+msgstr ""
+
+#: admin/settings.php:605
+msgid "Tumblr Settings"
+msgstr ""
+
+#: admin/settings.php:606
+msgid "General Settings"
+msgstr ""
+
+#: admin/settings.php:622 admin/settings.php:656 admin/settings.php:989
+#: admin/settings.php:1021 admin/settings.php:1315 admin/settings.php:1529
+#: admin/settings.php:1562
+msgid "Application needs authorisation"
+msgstr ""
+
+#: admin/settings.php:627 admin/settings.php:661 admin/settings.php:993
+#: admin/settings.php:1026 admin/settings.php:1320 admin/settings.php:1532
+#: admin/settings.php:1567
+msgid "Authorize"
+msgstr ""
+
+#: admin/settings.php:637 admin/settings.php:672 admin/settings.php:1002
+#: admin/settings.php:1037 admin/settings.php:1331 admin/settings.php:1542
+#: admin/settings.php:1578
+msgid "Reauthorize"
+msgstr ""
+
+#: admin/settings.php:682 admin/settings.php:1044
+msgid "Application is authorized, go posting."
+msgstr ""
+
+#: admin/settings.php:697 admin/settings.php:1053 admin/settings.php:1340
+#: admin/settings.php:1588 admin/settings.php:1931
+msgid "Note"
+msgstr ""
+
+#: admin/settings.php:697
+msgid ""
+"You have to create a Facebook application before filling the following "
+"details."
+msgstr ""
+
+#: admin/settings.php:698
+msgid "Click here </a></b>to create new Facebook application."
+msgstr ""
+
+#: admin/settings.php:699
+#, php-format
+msgid "In the application page in facebook, navigate to <b>%s</b>."
+msgstr ""
+
+#: admin/settings.php:699
+msgid "Set the site url as"
+msgstr ""
+
+#: admin/settings.php:701 admin/settings.php:1057
+#, php-format
+msgid "And then navigate to <b>%s</b>. Set the Valid OAuth redirect URIs as"
+msgstr ""
+
+#: admin/settings.php:703 admin/settings.php:1059 admin/settings.php:1344
+#: admin/settings.php:1594
+msgid "For detailed step by step instructions"
+msgstr ""
+
+#: admin/settings.php:703 admin/settings.php:1059 admin/settings.php:1344
+#: admin/settings.php:1594
+msgid "Click here"
+msgstr ""
+
+#: admin/settings.php:718 admin/settings.php:1067 admin/settings.php:1353
+#: admin/settings.php:1603 admin/settings.php:1947
+msgid "All fields given below are mandatory"
+msgstr ""
+
+#: admin/settings.php:729 admin/settings.php:1078
+msgid "Application name"
+msgstr ""
+
+#: admin/settings.php:730 admin/settings.php:1079
+msgid "This is for tracking purpose"
+msgstr ""
+
+#: admin/settings.php:738 admin/settings.php:1087 admin/settings.php:1363
+msgid "Application Selection"
+msgstr ""
+
+#: admin/settings.php:742 admin/settings.php:1091 admin/settings.php:1367
+msgid "Own App"
+msgstr ""
+
+#: admin/settings.php:742
+msgid "requires app submission and Facebook review"
+msgstr ""
+
+#: admin/settings.php:742 admin/settings.php:1091 admin/settings.php:1367
+msgid "Help"
+msgstr ""
+
+#: admin/settings.php:744 admin/settings.php:1093 admin/settings.php:1369
+msgid "App approval service available for 50 USD"
+msgstr ""
+
+#: admin/settings.php:747 admin/settings.php:1096 admin/settings.php:1372
+msgid "Expected time frame"
+msgstr ""
+
+#: admin/settings.php:747 admin/settings.php:1096 admin/settings.php:1372
+msgid "30 days"
+msgstr ""
+
+#: admin/settings.php:748 admin/settings.php:1097 admin/settings.php:1373
+msgid "Required details"
+msgstr ""
+
+#: admin/settings.php:748
+msgid "1.WordPress login"
+msgstr ""
+
+#: admin/settings.php:749
+msgid ""
+"2. Admin access to Facebook developer app for review submission (temporary)."
+msgstr ""
+
+#: admin/settings.php:750 admin/settings.php:1099 admin/settings.php:1375
+msgid "For more details contact"
+msgstr ""
+
+#: admin/settings.php:750 admin/settings.php:1099 admin/settings.php:1375
+msgid "Support Desk"
+msgstr ""
+
+#: admin/settings.php:754
+#, php-format
+msgid "%s App ( ready to publish )"
+msgstr ""
+
+#: admin/settings.php:754 admin/settings.php:1103 admin/settings.php:1379
+#: admin/settings.php:1622
+msgid "Starts from 10 USD per year"
+msgstr ""
+
+#: admin/settings.php:757 admin/settings.php:1106 admin/settings.php:1382
+#: admin/settings.php:1626
+msgid "30 DAYS FREE TRIAL AVAILABLE"
+msgstr ""
+
+#: admin/settings.php:760
+#, php-format
+msgid "How to use %s application"
+msgstr ""
+
+#: admin/settings.php:772
+#, php-format
+msgid "Connect your %s account"
+msgstr ""
+
+#: admin/settings.php:778 admin/settings.php:1127
+msgid "Application id"
+msgstr ""
+
+#: admin/settings.php:787 admin/settings.php:1135
+msgid "Application secret"
+msgstr ""
+
+#: admin/settings.php:797
+msgid ""
+"Create app album(with <b> Application name </b>) in the Facebook pages,<br/> "
+"if you are using the posting method <b> Upload image to app album"
+msgstr ""
+
+#: admin/settings.php:854
+msgid "Clear facebook cache before publishing to facebook"
+msgstr ""
+
+#: admin/settings.php:913
+msgid "Select facebook pages for auto publish"
+msgstr ""
+
+#: admin/settings.php:918 admin/settings.php:1217
+msgid "Select All"
+msgstr ""
+
+#: admin/settings.php:940
+msgid "Selected facebook pages for auto publish"
+msgstr ""
+
+#: admin/settings.php:964 admin/settings.php:1281 admin/settings.php:1499
+#: admin/settings.php:1815
+msgid "Save"
+msgstr ""
+
+#: admin/settings.php:968 admin/settings.php:1285 admin/settings.php:1503
+#: admin/settings.php:1819
+msgid "Free trial is available only for first time users"
+msgstr ""
+
+#: admin/settings.php:971 admin/settings.php:1288 admin/settings.php:1506
+#: admin/settings.php:1822
+msgid "Use reauthorize button to change selected values"
+msgstr ""
+
+#: admin/settings.php:1053
+msgid ""
+"You have to create a Instagram application before filling the following "
+"details."
+msgstr ""
+
+#: admin/settings.php:1054
+msgid "Click here </a></b>to create new Instagram application."
+msgstr ""
+
+#: admin/settings.php:1055
+#, php-format
+msgid ""
+"In the application page in instagram, navigate to <b>%s</b>. Set the site "
+"url as"
+msgstr ""
+
+#: admin/settings.php:1091
+msgid "requires app submission and Instagram review"
+msgstr ""
+
+#: admin/settings.php:1097 admin/settings.php:1373
+msgid "1. WordPress login"
+msgstr ""
+
+#: admin/settings.php:1098
+msgid ""
+"2. Admin access to Instagram developer app for review submission (temporary)."
+msgstr ""
+
+#: admin/settings.php:1145
+msgid "Text message with Image"
+msgstr ""
+
+#: admin/settings.php:1161
+msgid "Optional in the case of <b>Text message with image </b>posting methods"
+msgstr ""
+
+#: admin/settings.php:1213
+msgid "Select instagram pages for auto publish"
+msgstr ""
+
+#: admin/settings.php:1257
+msgid "Selected instagram pages for auto publish"
+msgstr ""
+
+#: admin/settings.php:1340
+msgid ""
+"You have to create a Twitter application before filling in following fields."
+msgstr ""
+
+#: admin/settings.php:1341
+msgid ""
+"Click here </a></b>to create new application. Specify the website for the "
+"application as"
+msgstr ""
+
+#: admin/settings.php:1342
+#, php-format
+msgid ""
+"In the twitter application, navigate to <b>%s</b>. Select <b>%s</b> option."
+msgstr ""
+
+#: admin/settings.php:1343
+#, php-format
+msgid ""
+"After updating access, navigate to <b>%s</b> in the application and click "
+"<b>Create my access token </b> button."
+msgstr ""
+
+#: admin/settings.php:1356
+msgid "Enable auto publish\tposts to my twitter account"
+msgstr ""
+
+#: admin/settings.php:1367
+msgid "requires app submission and Twitter review"
+msgstr ""
+
+#: admin/settings.php:1374
+msgid ""
+"2. Admin access to Twitter developer app for review submission (temporary)"
+msgstr ""
+
+#: admin/settings.php:1403 admin/settings.php:1960
+msgid "API key"
+msgstr ""
+
+#: admin/settings.php:1408
+msgid "How can I create a Twitter Application"
+msgstr ""
+
+#: admin/settings.php:1413 admin/settings.php:1970
+msgid "API secret"
+msgstr ""
+
+#: admin/settings.php:1421
+msgid "Twitter username"
+msgstr ""
+
+#: admin/settings.php:1429 admin/settings.php:1986
+msgid "Access token"
+msgstr ""
+
+#: admin/settings.php:1437 admin/settings.php:1994
+msgid "Access token secret"
+msgstr ""
+
+#: admin/settings.php:1484
+msgid "Twitter character limit"
+msgstr ""
+
+#: admin/settings.php:1487
+msgid "The character limit of tweets  is 280."
+msgstr ""
+
+#: admin/settings.php:1488
+msgid ""
+"Use 140 for languages like Chinese, Japanese and Korean <br/> which won't "
+"get the 280 character length limit."
+msgstr ""
+
+#: admin/settings.php:1588
+msgid ""
+"You have to create a Linkedin application before filling the following "
+"details."
+msgstr ""
+
+#: admin/settings.php:1589
+msgid "Click here </a></b> to create new Linkedin application."
+msgstr ""
+
+#: admin/settings.php:1590
+msgid "Specify the website url for the application as"
+msgstr ""
+
+#: admin/settings.php:1592
+msgid "Specify the authorized redirect url as"
+msgstr ""
+
+#: admin/settings.php:1613
+#, php-format
+msgid "%s usage"
+msgstr ""
+
+#: admin/settings.php:1617
+msgid "Own app-Basic profile fields only"
+msgstr ""
+
+#: admin/settings.php:1619
+msgid "Own app-Basic profile fields + company pages"
+msgstr ""
+
+#: admin/settings.php:1619
+msgid "requires app submission and LinkedIn review"
+msgstr ""
+
+#: admin/settings.php:1620 admin/settings.php:1648
+msgid "How can I create a Linkedin Application"
+msgstr ""
+
+#: admin/settings.php:1645
+msgid "Client ID"
+msgstr ""
+
+#: admin/settings.php:1652
+msgid "Client Secret"
+msgstr ""
+
+#: admin/settings.php:1671
+msgid "Optional"
+msgstr ""
+
+#: admin/settings.php:1706 admin/settings.php:1725
+msgid "Share post to profile"
+msgstr ""
+
+#: admin/settings.php:1737
+msgid "Connections"
+msgstr ""
+
+#: admin/settings.php:1742
+msgid "Select pages for auto publish"
+msgstr ""
+
+#: admin/settings.php:1760
+msgid "Failed to fetch company details."
+msgstr ""
+
+#: admin/settings.php:1777 admin/settings.php:1781
+msgid "No companies found."
+msgstr ""
+
+#: admin/settings.php:1790
+msgid "Share post to company page"
+msgstr ""
+
+#: admin/settings.php:1931
+msgid ""
+"You have to create a Tumblr application before filling in following fields."
+msgstr ""
+
+#: admin/settings.php:1932
+msgid ""
+"Click here </a></b> to create new application.<br> Specify the application "
+"website for the application as"
+msgstr ""
+
+#: admin/settings.php:1934
+msgid "Specify the default callback URL as"
+msgstr ""
+
+#: admin/settings.php:1936
+#, php-format
+msgid ""
+"For detailed step by step instructions <b><a href=\"%s\" target=\"_blank\"> "
+"Click here"
+msgstr ""
+
+#: admin/settings.php:1965
+msgid "How can I create a Tumblr Application"
+msgstr ""
+
+#: admin/settings.php:1978
+msgid "Tumblr username"
+msgstr ""
+
+#: admin/settings.php:2027
+msgid "Note : </b>Message can not be posted to tumblr while attaching image."
+msgstr ""
+
+#: admin/settings.php:2051
+msgid "save"
+msgstr ""
+
+#: admin/settings.php:2063
+msgid "Basic Settings"
+msgstr ""
+
+#: admin/settings.php:2066
+msgid "Publish wordpress `posts` to social media"
+msgstr ""
+
+#: admin/settings.php:2075
+msgid "Publish wordpress `pages` to social media"
+msgstr ""
+
+#: admin/settings.php:2099
+msgid "Select wordpress custom post types for auto publish"
+msgstr ""
+
+#: admin/settings.php:2116
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/settings.php:2118
+msgid "Enforce og tags for Facebook and LinkedIn"
+msgstr ""
+
+#: admin/settings.php:2120
+msgid ""
+"If you enable, Open Graph tags will be generated while posting to Facebook "
+"and LinkedIn. <br/>\n"
+"\t\t\t\t\t\t When sharing links to Facebook and LinkedIn, <b> Facebook/"
+"LinkedIn Crawler </b> uses internal heuristics to set the preview image for "
+"your content when using the posting method <b> Share a link to your blog "
+"post </b> or <b> Attach your blog post </b> in Facebook and also when "
+"sharing to LinkedIn."
+msgstr ""
+
+#: admin/settings.php:2122
+msgid ""
+"If Open Graph tags are present, most major content sharing platform's "
+"crawler will not have to rely on it's own analysis to determine what content "
+"will be shared, which improves the likelihood that the information that is "
+"shared is exactly what you intended."
+msgstr ""
+
+#: admin/settings.php:2131
+msgid "Add twitter cards while posting to twitter"
+msgstr ""
+
+#: admin/settings.php:2133
+msgid ""
+"By crawling twitter card specific meta tags, twitter can generate a "
+"summarised preview of the tweeted link.<br/> * To generete tweet preview of "
+"post,set <b>Attach media to twitter post</b> as <b>No</b>."
+msgstr ""
+
+#: admin/settings.php:2143
+msgid "Select post categories for auto publish"
+msgstr ""
+
+#: admin/settings.php:2149
+msgid "All"
+msgstr ""
+
+#: admin/settings.php:2151
+msgid "Specific"
+msgstr ""
+
+#: admin/settings.php:2186
+msgid "NIL"
+msgstr ""
+
+#: admin/settings.php:2194
+msgid "Auto publish on editing posts/pages/custom post types"
+msgstr ""
+
+#: admin/settings.php:2197
+msgid "Enabled"
+msgstr ""
+
+#: admin/settings.php:2198
+msgid "Disabled"
+msgstr ""
+
+#: admin/settings.php:2199
+msgid "Use settings from post creation or post updation"
+msgstr ""
+
+#: admin/settings.php:2205
+msgid "Enable SSL peer verification in remote requests"
+msgstr ""
+
+#: admin/settings.php:2213
+msgid "Apply filters during publishing"
+msgstr ""
+
+#: admin/settings.php:2252
+msgid "Other Settings"
+msgstr ""
+
+#: admin/settings.php:2255
+msgid "Enable credit link to author"
+msgstr ""
+
+#: admin/settings.php:2265
+msgid "Enable premium version ads"
+msgstr ""
+
+#: admin/settings.php:2276
+msgid "Update Settings"
+msgstr ""
+
+#: admin/suggest_feature.php:10
+msgid "Thank you for the suggestion."
+msgstr ""
+
+#: admin/suggest_feature.php:18
+#, php-format
+msgid "%s not able to process the request."
+msgstr ""
+
+#: admin/suggest_feature.php:26
+msgid "Please suggest a feature."
+msgstr ""
+
+#: admin/suggest_feature.php:66
+msgid "Contribute And Get Rewarded"
+msgstr ""
+
+#: admin/suggest_feature.php:67
+msgid ""
+"Suggest a feature for this plugin and stand a chance to get a free copy of "
+"premium version of this plugin."
+msgstr ""
+
+#: admin/suggest_feature.php:73
+msgid "Send Mail To Us"
+msgstr ""
+
+#: social-media-auto-publish.php:31
+msgid "Hi there!  Im just a plugin, not much I can do when called directly."
+msgstr ""

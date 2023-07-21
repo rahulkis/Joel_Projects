@@ -1,0 +1,163 @@
+# Copyright (C) 2020 GravityView
+# This file is distributed under the GPLv2 or later.
+# Translators:
+# Dariusz Zielonka <info@dariusz-zielonka.pl>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: GravityView - Social Sharing & SEO 3.0\n"
+"Report-Msgid-Bugs-To: https://gravityview.co/support/\n"
+"POT-Creation-Date: 2020-10-17 15:59:30+00:00\n"
+"PO-Revision-Date: 2020-10-17 16:02+0000\n"
+"Last-Translator: Dariusz Zielonka <info@dariusz-zielonka.pl>, 2020\n"
+"Language-Team: Polish (Poland) (https://www.transifex.com/katzwebservices/teams/18775/pl_PL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+
+#: includes/class-gravityview-social-meta.php:150
+msgid "Single Entry Settings"
+msgstr "Ustawienia pojedynczej pozycji"
+
+#: includes/class-gravityview-social-meta.php:184
+msgid "Facebook Title"
+msgstr "Tytuł na Facebooku"
+
+#: includes/class-gravityview-social-meta.php:189
+msgid "Facebook Description"
+msgstr "Opis na Facebooku"
+
+#: includes/class-gravityview-social-meta.php:194
+msgid "Facebook Image"
+msgstr "Obraz na Facebooku"
+
+#: includes/class-gravityview-social-meta.php:199
+msgid "Twitter Title"
+msgstr "Tytuł na Twitterze"
+
+#: includes/class-gravityview-social-meta.php:204
+msgid "Twitter Description"
+msgstr "Opis dla Twittera"
+
+#: includes/class-gravityview-social-meta.php:209
+msgid "Twitter Image"
+msgstr "Obrazek na Twitterze"
+
+#: includes/class-gravityview-social-meta.php:218
+msgid "SEO Title"
+msgstr "SEO tytuł"
+
+#: includes/class-gravityview-social-meta.php:222
+msgid "Meta Description"
+msgstr "Opis meta"
+
+#: includes/class-gravityview-social-meta.php:244
+msgid "%s (Single Entry)"
+msgstr "%s (Pojedyncza pozycja)"
+
+#: includes/class-gravityview-social-meta.php:283
+msgid ""
+"To configure GravityView Single Entry settings, click on the Add-ons tab "
+"icon (it looks like a plug)."
+msgstr ""
+"Aby skonfigurować ustawienia pojedynczej pozycji GravityView, kliknij na "
+"ikonę zakładki Dodatki (wygląda ona jak wtyczka)."
+
+#: includes/class-gravityview-social-meta.php:286
+msgid "%s (Multiple Entries)"
+msgstr "%s (Wiele pozycji)"
+
+#: includes/class-gravityview-social-register-field.php:52
+msgid "Sharing"
+msgstr "Udostępnianie"
+
+#: includes/class-gravityview-social-register-field.php:54
+msgid "Add social sharing links from active sharing plugins."
+msgstr ""
+"Dodawanie linków społecznościowych z aktywnych wtyczek dla udostępniania."
+
+#: includes/class-gravityview-social-register-field.php:100
+msgid "Sharing Plugin:"
+msgstr "Wtyczka do udostępniania:"
+
+#: includes/class-gravityview-social-register-field.php:101
+msgid ""
+"Choose the plugin you would like to display the social sharing links for"
+msgstr "Wybierz wtyczkę, która ma wyświetlać linki społecznościowe dla"
+
+#: includes/services/wordpress.php:66
+msgid "Available Services:"
+msgstr "Dostępne usługi:"
+
+#: includes/services/wordpress.php:67
+msgid ""
+"Drag and drop individual services between available and enabled services "
+"boxed areas"
+msgstr ""
+"Przeciągnij i upuść poszczególne usługi pomiędzy dostępnymi i aktywnymi "
+"obszarami usług"
+
+#: includes/services/wordpress.php:68
+msgid "Enabled Services:"
+msgstr "Włączone usługi:"
+
+#: includes/services/wordpress.php:69
+msgid "Text To Share:"
+msgstr "Tekst udostępnienia:"
+
+#: lib/EDD_SL_Plugin_Updater.php:181
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Dostępna jest nowa wersja %1$s. <a target=\"_blank\" class=\"thickbox\" "
+"href=\"%2$s\">Zobacz szczegóły wersji %3$s </a>."
+
+#: lib/EDD_SL_Plugin_Updater.php:188
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+"Dostępna jest nowa wersja %1$s . <a target=\"_blank\" class=\"thickbox\" "
+"href=\"%2$s\">Wyświetl szczegóły wersji %3$s </a> lub <a "
+"href=\"%4$s\">zaktualizuj teraz</a>."
+
+#: lib/EDD_SL_Plugin_Updater.php:332
+msgid "You do not have permission to install plugin updates"
+msgstr "Nie posiadasz uprawnień do instalowania aktualizacji wtyczki"
+
+#: lib/EDD_SL_Plugin_Updater.php:332
+msgid "Error"
+msgstr "Błąd"
+
+#: lib/class-gravityview-extension.php:351
+msgid "Could not activate the %s Extension; GravityView is not active."
+msgstr "Nie można aktywować wtyczki %s, GravityView nie jest aktywny."
+
+#: lib/class-gravityview-extension.php:355
+msgid "The %s Extension requires GravityView Version %s or newer."
+msgstr "Wtyczka %s wymaga GravityView w wersji %s lub nowszej."
+
+#: lib/class-gravityview-extension.php:359
+msgid ""
+"The %s Extension requires PHP Version %s or newer. Please ask your host to "
+"upgrade your server's PHP."
+msgstr ""
+"Wtyczka %s wymaga PHP w wersji %s lub nowszej. Proszę zwrócić się do "
+"dostawcy hostingu o aktualizację wersji PHP serwera."
+
+#: includes/services/wordpress.php:151
+msgctxt "%s is replaced with social network name"
+msgid "Click to share on %s"
+msgstr "Kliknij, aby się udostępnić na %s"

@@ -1,0 +1,1 @@
+<?php/** * This file should be used to render each module instance. * $settings The module's settings. */?><div class="bar-chart-container">    <div class="bar-chart-content">        <canvas id="fl-barchart-<?php echo $id; ?>"></canvas>    </div></div>

@@ -1,0 +1,709 @@
+# Translation of Plugins - Bounce Handler MailPoet 3 - Development (trunk) in Danish
+# This file is distributed under the same license as the Plugins - Bounce Handler MailPoet 3 - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-25 17:10+0600\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.1\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Bounce Handler MailPoet 3 - Development (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: includes/class-mailpoet-bounce-handler.php:1101
+msgid "Are you sure you want to delete all item?"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:106
+msgid "Reason"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:105
+msgid "Email"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:104
+msgid "ID"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:44
+#: includes/class-mailpoet-bounce-log.php:45
+msgid "Filter"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:43
+msgid "Weird Forward"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:42
+msgid "Message Delayed"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:40
+msgid "Mailbox Not Available"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:39
+msgid "All"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:27
+msgid "Logs per page"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:13
+#: includes/class-mailpoet-bounce-handler.php:1162
+msgid "Search"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:12
+msgid "Delete All"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:1079
+#: includes/class-mailpoet-bounce-handler.php:1048
+#: includes/class-mailpoet-bounce-handler.php:1069
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-log.php:193
+#: includes/class-mailpoet-bounce-log.php:200
+#: includes/class-mailpoet-bounce-handler-legacy.php:1024
+msgid "Delete"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:264
+#: includes/class-mailpoet-bounce-handler-legacy.php:373
+#: includes/class-mailpoet-bounce-handler.php:303
+#: includes/class-mailpoet-bounce-handler.php:412
+msgid "Save Changes"
+msgstr ""
+
+#: includes/personal-data-exporter.php:118
+msgid "Mailpoet Bounce Handler log removed!"
+msgstr ""
+
+#: includes/personal-data-exporter.php:60
+msgid "Mailpoet Bounce Log"
+msgstr ""
+
+#: includes/personal-data-exporter.php:23
+#: includes/personal-data-exporter.php:38
+msgid "Mailpoet Bounce Handler"
+msgstr ""
+
+#: includes/personal-data-exporter.php:69
+msgid "Detected At"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:256
+#: includes/class-mailpoet-bounce-handler.php:295
+msgid "Check if your credentials are working before bounce handling"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:236
+#: includes/class-mailpoet-bounce-handler.php:275
+msgid "Activate bounce check scheduler"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:183
+#: includes/class-mailpoet-bounce-handler.php:222
+msgid "Choose the best method to connect your mail server"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:155
+#: includes/class-mailpoet-bounce-handler.php:194
+msgid "Password for bounce email."
+msgstr ""
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:140
+#: includes/class-mailpoet-bounce-handler.php:179
+msgid "Email address"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:131
+#: includes/class-mailpoet-bounce-handler.php:170
+msgid "Host name of your mail server"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:121
+#: includes/class-mailpoet-bounce-handler-legacy.php:123
+#: includes/class-mailpoet-bounce-handler.php:160
+#: includes/class-mailpoet-bounce-handler.php:162
+msgid "Please set a single dedicated bounce address for bounce email, for example bounce@mailpoet.com"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:281
+#: includes/class-mailpoet-bounce-handler-legacy.php:324
+#: includes/class-mailpoet-bounce-handler.php:320
+#: includes/class-mailpoet-bounce-handler.php:363
+msgid "Disregard current list"
+msgstr "Ignorer nuværende liste"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:311
+#: includes/class-mailpoet-bounce-handler-legacy.php:354
+#: includes/class-mailpoet-bounce-handler.php:350
+#: includes/class-mailpoet-bounce-handler.php:393
+msgid "Unsubscriber"
+msgstr "Afmeldt abonnent"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:310
+#: includes/class-mailpoet-bounce-handler-legacy.php:353
+#: includes/class-mailpoet-bounce-handler.php:349
+#: includes/class-mailpoet-bounce-handler.php:392
+msgid "Unconfirmed"
+msgstr "Ikke bekræftet"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:309
+#: includes/class-mailpoet-bounce-handler-legacy.php:352
+#: includes/class-mailpoet-bounce-handler.php:348
+#: includes/class-mailpoet-bounce-handler.php:391
+msgid "Bounced"
+msgstr "Returneret (bounced)"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:308
+#: includes/class-mailpoet-bounce-handler-legacy.php:351
+#: includes/class-mailpoet-bounce-handler.php:347
+#: includes/class-mailpoet-bounce-handler.php:390
+msgid "Subscriber"
+msgstr "Abonnent"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:306
+#: includes/class-mailpoet-bounce-handler-legacy.php:349
+#: includes/class-mailpoet-bounce-handler.php:345
+#: includes/class-mailpoet-bounce-handler.php:388
+msgid "as"
+msgstr "som"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:302
+#: includes/class-mailpoet-bounce-handler-legacy.php:345
+#: includes/class-mailpoet-bounce-handler.php:341
+#: includes/class-mailpoet-bounce-handler.php:384
+msgid "No List Found"
+msgstr "Ingen liste fundet"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:293
+#: includes/class-mailpoet-bounce-handler-legacy.php:336
+#: includes/class-mailpoet-bounce-handler.php:332
+#: includes/class-mailpoet-bounce-handler.php:375
+msgid "him for the list"
+msgstr "ham for listen"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:289
+#: includes/class-mailpoet-bounce-handler-legacy.php:332
+#: includes/class-mailpoet-bounce-handler.php:328
+#: includes/class-mailpoet-bounce-handler.php:371
+msgid "Do nothing more"
+msgstr "Gør ikke mere"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:288
+#: includes/class-mailpoet-bounce-handler-legacy.php:331
+#: includes/class-mailpoet-bounce-handler.php:327
+#: includes/class-mailpoet-bounce-handler.php:370
+msgid "Remove"
+msgstr "Fjern"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:287
+#: includes/class-mailpoet-bounce-handler-legacy.php:330
+#: includes/class-mailpoet-bounce-handler.php:326
+#: includes/class-mailpoet-bounce-handler.php:369
+msgid "Add"
+msgstr "Tilføj"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:285
+#: includes/class-mailpoet-bounce-handler-legacy.php:328
+#: includes/class-mailpoet-bounce-handler.php:324
+#: includes/class-mailpoet-bounce-handler.php:367
+msgid "and"
+msgstr "og"
+
+#: includes/class-mailpoet-bounce-detect.php:502
+msgid " Bounce reason : "
+msgstr "Retur årsag"
+
+#: includes/class-mailpoet-bounce-detect.php:437
+msgid "no action done as per settings!"
+msgstr "ingen handling udført, som angivet i indstillingerne!"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:527
+#: includes/class-mailpoet-bounce-handler.php:561
+msgid "Please set a valid email address for actions!"
+msgstr "Indtast venligst en gyldig e-mail-adresse for handlinger!"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:1046
+msgid "Next"
+msgstr "Næste"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:1045
+msgid "Previous"
+msgstr "Forrige"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:1043
+msgid "Logs."
+msgstr "Logs"
+
+#: includes/class-mailpoet-bounce-log.php:28
+#: includes/class-mailpoet-bounce-log.php:29
+#: includes/class-mailpoet-bounce-handler-legacy.php:1043
+msgid "Show"
+msgstr "Vis"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:1042
+msgid "No logs found"
+msgstr "Ingen logs fundet"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:1041
+msgid "of"
+msgstr "af"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:1041
+msgid "Page"
+msgstr "Side"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:980
+#: includes/class-mailpoet-bounce-handler.php:1009
+msgid "Bounce Detection"
+msgstr "Bounce opdaget"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:915
+#: includes/class-mailpoet-bounce-handler.php:944
+msgid "Bounce handling connection test"
+msgstr "Returhåndtering forbindelsestest"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:545
+#: includes/class-mailpoet-bounce-handler.php:579
+msgid "Please set a valid email address for forward rules when the bounce is weird and we're not sure what to do."
+msgstr "Sæt venligst en gyldig e-mail-adresse til videresendelse regler, når bounce er mærkelig og vi ikke er sikre på hvad vi skal gøre."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:539
+#: includes/class-mailpoet-bounce-handler.php:573
+msgid "Please set a valid email address for forward rules when you are flagged as a spammer."
+msgstr "Sæt venligst en gyldig e-mail-adresse til videresendelse regler, når du markeres som en spammer."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:533
+#: includes/class-mailpoet-bounce-handler.php:567
+msgid "Please set a valid email address for forward rules when you need to confirm you're a human being."
+msgstr "Sæt venligst en gyldig e-mail-adresse til videresendelse regler, når der er behov for at du bekræfter at du er et menneske."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:521
+#: includes/class-mailpoet-bounce-handler.php:555
+msgid "Please set a valid email address for bounce email."
+msgstr "Sæt venligst en gyldig e-mail-adresse til bounce e-mails."
+
+#: includes/class-mailpoet-bounce-log.php:107
+#: includes/class-mailpoet-bounce-handler-legacy.php:390
+msgid "Last Checked"
+msgstr "Sidst tjekket"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:389
+msgid "Bounced Reason"
+msgstr "Bounce årsag"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:388
+msgid "Bounced Email"
+msgstr "Bounced e-mail"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:381
+#: includes/class-mailpoet-bounce-handler.php:428
+msgid "Bounce Logs"
+msgstr "Bounce logs"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:98
+#: includes/class-mailpoet-bounce-handler.php:137
+msgid "Log"
+msgstr "Log"
+
+#: includes/personal-data-exporter.php:65
+msgid "Bounce Reason"
+msgstr ""
+
+#: includes/class-mailpoet-bounce-detect.php:416
+#: includes/class-mailpoet-bounce-detect.php:424
+#: includes/class-mailpoet-bounce-detect.php:432
+msgid "no destination set to forward this"
+msgstr "ingen destinaton sat hvor denne kan videresendes"
+
+#: includes/class-mailpoet-bounce-detect.php:408
+msgid "Set status bounced"
+msgstr "Set status bounced"
+
+#: includes/class-mailpoet-bounce-detect.php:402
+msgid "Subscriber removed"
+msgstr "Abonnent fjernet"
+
+#: includes/class-mailpoet-bounce-detect.php:396
+msgid "Unsubscribed"
+msgstr "Afmeldt"
+
+#: includes/class-mailpoet-bounce-detect.php:292
+msgid "No login or Password to connect mailbox!"
+msgstr "Intet login eller kodeord til at forbinde til postkassen!"
+
+#: includes/class-mailpoet-bounce-detect.php:168
+msgid "No Settings found!"
+msgstr "Ingen indstillinger fundet!"
+
+#: includes/class-mailpoet-bounce-detect.php:107
+msgid "Processing"
+msgstr "Arbejder"
+
+#: includes/class-mailpoet-bounce-detect.php:98
+msgid "Your inbox seems empty!"
+msgstr "Din indbakke ser ud til at være tom!"
+
+#. Description of the plugin
+msgid "Bounce Handler Mailpoet is an add-on for MailPoet 3 to handle bounce emails easily, when using your own SMTP server."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.tikweb.dk/"
+msgstr "http://www.tikweb.dk/"
+
+#. Author of the plugin
+msgid "Tikweb"
+msgstr "Tikweb"
+
+#. Plugin Name of the plugin
+msgid "Bounce Handler Mailpoet"
+msgstr ""
+
+#: includes/scheduler.php:160 includes/scheduler.php:165
+msgid "Once every 30 minutes"
+msgstr "En gang hver 30 minutter"
+
+#: includes/scheduler.php:155
+msgid "Once every 15 minutes"
+msgstr "En gang hver 15. minut"
+
+#: includes/class-mailpoet-handle-bounces.php:231
+msgid "Identication error %s : %s"
+msgstr "Identifikation fejl %s : %s"
+
+#: includes/class-mailpoet-handle-bounces.php:207
+msgid "Error connecting to the server %s : %s"
+msgstr "Fejl ved forbindelse til serveren %s : %s"
+
+#: includes/class-mailpoet-handle-bounces.php:173
+msgid "The extension %s could not be loaded, please change your PHP configuration to enable it or use the pop3 method without imap extension"
+msgstr "Udvidelsen %s kunne ikke indlæses, ret venligst din PHP konfiguration så du aktiverer den eller brug pop3 metoden uden imap udvidelsen"
+
+#: includes/class-mailpoet-handle-bounces.php:156
+#: includes/class-mailpoet-handle-bounces.php:225
+msgid "There are %s messages in your mailbox"
+msgstr "Der er %s e-mail i din postkasse"
+
+#: includes/class-mailpoet-handle-bounces.php:154
+#: includes/class-mailpoet-handle-bounces.php:223
+msgid "There are no bounced messages to process right now!"
+msgstr "Der er ingen returnerede beskeder at behandle lige nu!"
+
+#: includes/class-mailpoet-handle-bounces.php:150
+#: includes/class-mailpoet-handle-bounces.php:220
+msgid "Successfully connected to %s"
+msgstr "Successfuldt forbundet til %s"
+
+#: includes/class-mailpoet-handle-bounces.php:139
+msgid "Error connecting to %s"
+msgstr "Fejl ved forbindelse til %s"
+
+#: includes/class-mailpoet-handle-bounces.php:64
+msgid "Please fill out all the fields."
+msgstr "Udfyld venligst alle felterne."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:957
+#: includes/class-mailpoet-bounce-handler.php:986
+msgid "Error occurred, unable to check connection."
+msgstr "En fejl opstod, kan ikke tjekke forbindelsen."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:905
+#: includes/class-mailpoet-bounce-handler.php:934
+msgid "Error occurred, unable to save data."
+msgstr "En fejl opstod, kan ikke gemme data."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:873
+#: includes/class-mailpoet-bounce-handler.php:902
+msgid "Settings saved"
+msgstr "Indstillinger gemt"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:611
+#: includes/class-mailpoet-bounce-handler-legacy.php:615
+#: includes/class-mailpoet-bounce-handler-legacy.php:628
+#: includes/class-mailpoet-bounce-handler-legacy.php:633
+#: includes/class-mailpoet-bounce-handler.php:646
+#: includes/class-mailpoet-bounce-handler.php:650
+#: includes/class-mailpoet-bounce-handler.php:663
+#: includes/class-mailpoet-bounce-handler.php:668
+msgid "Unable to save data."
+msgstr "Kan ikke gemme data."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:414
+#: includes/class-mailpoet-bounce-handler.php:454
+msgid "Process bounce handling now!"
+msgstr "Start returhåndtering nu!"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:368
+#: includes/class-mailpoet-bounce-handler.php:407
+msgid "When the bounce is weird and we're not sure what to do, forward to"
+msgstr "Når bounce e-mail er underlig og vi ikke er sikre på hvad vi skal gøre, videresend til"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:360
+#: includes/class-mailpoet-bounce-handler.php:399
+msgid "When you need to confirm you're a human being, forward to"
+msgstr "Når du skal bekræfte at du er et menneske, videresend til"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:279
+#: includes/class-mailpoet-bounce-handler-legacy.php:322
+#: includes/class-mailpoet-bounce-handler.php:318
+#: includes/class-mailpoet-bounce-handler.php:361
+msgid "Change status to 'Bounced'"
+msgstr "Ret status til 'Bounced'"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:280
+#: includes/class-mailpoet-bounce-handler.php:319
+msgid "Unsubscribe The User"
+msgstr "Afmeld brugeren"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:278
+#: includes/class-mailpoet-bounce-handler-legacy.php:321
+#: includes/class-mailpoet-bounce-handler.php:317
+#: includes/class-mailpoet-bounce-handler.php:360
+msgid "Delete the user"
+msgstr "Slet brugeren"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:277
+#: includes/class-mailpoet-bounce-handler-legacy.php:320
+#: includes/class-mailpoet-bounce-handler.php:316
+#: includes/class-mailpoet-bounce-handler.php:359
+msgid "Do nothing"
+msgstr "Gør intet"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:274
+#: includes/class-mailpoet-bounce-handler.php:313
+msgid "When mailbox is full after 3 tries"
+msgstr "Når postkassen er fuld efter 3 forsøg"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:271
+#: includes/class-mailpoet-bounce-handler.php:310
+msgid "There are plenty of reasons for bounces. Configure what to do in each scenario."
+msgstr "Der er masser af grunde til du får e-mails retur. Konfigurer hvad der skal gøres i hvert enkelt tilfælde."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:257
+#: includes/class-mailpoet-bounce-handler.php:296
+msgid "Does it work? Try to connect."
+msgstr "Virker det? Prøv at forbinde."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:250
+#: includes/class-mailpoet-bounce-handler.php:289
+msgid "Day"
+msgstr "Dag"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:249
+#: includes/class-mailpoet-bounce-handler.php:288
+msgid "Twice daily"
+msgstr "To gange om dagen"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:248
+#: includes/class-mailpoet-bounce-handler.php:287
+msgid "2 hours"
+msgstr "2 timer"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:247
+#: includes/class-mailpoet-bounce-handler.php:286
+msgid "1 hour"
+msgstr "1 time"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:246
+#: includes/class-mailpoet-bounce-handler.php:285
+msgid "30 minutes"
+msgstr "30 minutter"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:245
+#: includes/class-mailpoet-bounce-handler.php:284
+msgid "15 minutes"
+msgstr "15 minutter"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:239
+#: includes/class-mailpoet-bounce-handler.php:278
+msgid "Activate bounce and check every..."
+msgstr "Aktiver returhåndtering og tjek hver..."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:215
+#: includes/class-mailpoet-bounce-handler.php:254
+msgid "Self-signed certificates"
+msgstr "Selvsigneret certifikater"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:209
+#: includes/class-mailpoet-bounce-handler-legacy.php:228
+#: includes/class-mailpoet-bounce-handler.php:248
+#: includes/class-mailpoet-bounce-handler.php:267
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:208
+#: includes/class-mailpoet-bounce-handler-legacy.php:227
+#: includes/class-mailpoet-bounce-handler.php:247
+#: includes/class-mailpoet-bounce-handler.php:266
+msgid "No"
+msgstr "Nej"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:194
+#: includes/class-mailpoet-bounce-handler.php:233
+msgid "Secure connection(SSL)"
+msgstr "Sikker forbindelse (SSL)"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:179
+#: includes/class-mailpoet-bounce-handler.php:218
+msgid "Connection method"
+msgstr "Forbindelsesmetode"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:161
+#: includes/class-mailpoet-bounce-handler.php:200
+msgid "Port"
+msgstr "Port"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:146
+#: includes/class-mailpoet-bounce-handler.php:185
+msgid "Password"
+msgstr "Kodeord"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:137
+#: includes/class-mailpoet-bounce-handler.php:176
+msgid "Login"
+msgstr "Login"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:128
+#: includes/class-mailpoet-bounce-handler.php:167
+msgid "Hostname"
+msgstr "Værtsnavn"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:118
+#: includes/class-mailpoet-bounce-handler.php:157
+msgid "Bounce Email"
+msgstr "Retur e-mail"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:113
+#: includes/class-mailpoet-bounce-handler.php:152
+msgid "Need help? Check out <a href=\"%s\" target=\"_blank\">our guide</a> on how to fill out the form."
+msgstr "Brug for hjælp? Tjek vores <a href=\"%s\" target=\"_blank\">guide</a> til hvordan man udfylder formularen."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:111
+#: includes/class-mailpoet-bounce-handler.php:150
+msgid "Take it easy, the plugin does the rest."
+msgstr "Slap bare af, plugin'et klarer resten."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:110
+#: includes/class-mailpoet-bounce-handler.php:149
+msgid "Fill out the form below so we can connect to it."
+msgstr "Udfyld formularen så vi kan forbinde til den."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:109
+#: includes/class-mailpoet-bounce-handler.php:148
+msgid "Create an email account dedicated solely to bounce handling."
+msgstr "Opret en e-mail adresse dedikeret udelukkende til returhåndtering."
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:107
+#: includes/class-mailpoet-bounce-handler.php:146
+msgid "How does it work?"
+msgstr "Hvordan fungerer det?"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:97
+#: includes/class-mailpoet-bounce-handler.php:136
+msgid "Actions & Notifications"
+msgstr "Handlinger og Påmindelser"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:96
+#: includes/class-mailpoet-bounce-handler.php:135
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: includes/class-mailpoet-bounce-handler-legacy.php:55
+#: includes/class-mailpoet-bounce-handler-legacy.php:87
+#: includes/class-mailpoet-bounce-handler.php:93
+#: includes/class-mailpoet-bounce-handler.php:126
+msgid "Bounce Handling"
+msgstr "Returhåndtering"
+
+#: includes/class-mailpoet-bounce-detect.php:697
+msgid "When the bounce is weird and we're not sure what to do, forward to:"
+msgstr "Når returneringen er mærkelig og vi ikke er sikker på, hvad vi skal gøre, videresend til:"
+
+#: includes/class-mailpoet-bounce-detect.php:696
+msgid "Final Rule"
+msgstr "Sidste regel"
+
+#: includes/class-mailpoet-bounce-detect.php:691
+#: includes/class-mailpoet-bounce-handler-legacy.php:364
+#: includes/class-mailpoet-bounce-handler.php:403 includes/rules.php:37
+msgid "When you are flagged as a spammer forward the bounced message to"
+msgstr "Når du bliver registreret som spammer, så send den returnerede e-mail til:"
+
+#: includes/class-mailpoet-bounce-detect.php:690 includes/rules.php:36
+msgid "Blocked IP"
+msgstr "Blokeret IP"
+
+#: includes/class-mailpoet-bounce-detect.php:685 includes/rules.php:31
+msgid "When you need to confirm you're a human being, forward to:"
+msgstr "Når du skal bekræfte, at du er en ægte person, så videresend til:"
+
+#: includes/class-mailpoet-bounce-detect.php:684 includes/rules.php:30
+msgid "Action Required"
+msgstr "Handling Påkrævet"
+
+#: includes/class-mailpoet-bounce-detect.php:679 includes/rules.php:25
+msgid "When failed permanently"
+msgstr "ved permanent fejl"
+
+#: includes/class-mailpoet-bounce-detect.php:678 includes/rules.php:24
+msgid "Failed Permanently"
+msgstr "Permanent fejl"
+
+#: includes/class-mailpoet-bounce-detect.php:673 includes/rules.php:19
+msgid "When message is delayed"
+msgstr "Når beskeden forsinkes"
+
+#: includes/class-mailpoet-bounce-detect.php:672 includes/rules.php:18
+msgid "Message delayed"
+msgstr "Besked forsinket"
+
+#: includes/class-mailpoet-bounce-detect.php:667
+#: includes/class-mailpoet-bounce-handler-legacy.php:317
+#: includes/class-mailpoet-bounce-handler.php:356 includes/rules.php:13
+msgid "When mailbox is not available"
+msgstr "Når indbakken ikke er tilgængelig"
+
+#: includes/class-mailpoet-bounce-detect.php:666 includes/rules.php:12
+msgid "Mailbox not available"
+msgstr "Indbakke er ikke tilgængelig"
+
+#: includes/class-mailpoet-bounce-detect.php:661 includes/rules.php:7
+msgid "When mailbox is full"
+msgstr "Når indbakken er fyldt"
+
+#: includes/class-mailpoet-bounce-log.php:41
+#: includes/class-mailpoet-bounce-detect.php:660 includes/rules.php:6
+msgid "Mailbox Full"
+msgstr "Indbakken er fyldt"
+
+#: includes/class-mailpoet-bounce-detect.php:626
+msgid "[MailPoet] Mail didn't detect as bounced. "
+msgstr "[Bounce Handler] e-mail blev ikke detekteret som bounced. "
+
+#: includes/class-mailpoet-bounce-detect.php:622
+msgid "[MailPoet] Action required! your newsletter marked as spam in a subscriber network"
+msgstr "[Bounce Handler] handling krævet! dit nyhedsbrev blev markeret som spam i et modtager netværk"
+
+#: includes/class-mailpoet-bounce-detect.php:618
+msgid "[MailPoet] Action required! You have to prove your identity in a subscriber email network"
+msgstr "[Bounce Handler] handling krævet! Du skal bevise din identitet i et modtager e-mail netværk"
+
+#: bounce-handler-mailpoet.php:113
+msgid "Bounce Handler Mailpoet plugin requires MailPoet plugin, Please activate MailPoet first to using Bounce Handler Mailpoet."
+msgstr "Bounce Handler Mailpoet plugin kræver MailPoet plugi, vær venligt at aktivere MailPoet først for at bruge Bounce Handler Mailpoet."
+
+#: bounce-handler-mailpoet.php:64
+msgid "MailPoet plugin requires PHP version 5.6.0 or newer, Please upgrade your PHP."
+msgstr ""

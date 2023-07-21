@@ -1,0 +1,92 @@
+Plugin Name: WP Defender
+Author: WPMU DEV
+Tested up to: 6.2.2
+
+Change Log:
+
+= 3.12.0 ( 2023-06-19 ) =
+
+- Enhance: Update global IP cron schedule to hourly
+- Enhance: Improve malware scan core
+- Enhance: Extend conditions for crawler request validation
+- Enhance: Replace trial prompts in Defender free
+- Fix: User agent is blocked when the blocklist is empty
+- Fix: Issues when deleting vulnerable plugins or themes
+- Fix: Released temporary IP addresses are shown in the Active Lockouts list
+- Fix: Detect malware in core-builder and core-engine plugins
+- Fix: Defender Reset option does not clean the malware results items
+- Fix: New hook to avoid the connection block for Manage WP when 2FA is enabled
+- Fix: Defender mask URL breaking the default language switch on the login page
+- Fix: Issues activating the mask login feature when a post/page and mask login slug are the same
+- Fix: Having login and registration forms on the same page causes a conflict with Google reCAPTCHA
+- Fix: Delete action shows up even after the deletion of the default security config
+- Fix: Issues in deleting the default security config
+- Fix: Google reCAPTCHA is not deactivated if Woocommerce is enabled without forms selection
+- Fix: User search for recipient does not work in notifications bulk configure
+- Fix: An error message is shown by default in the notification modal
+- Fix: Grammar and spelling errors
+- Fix: Typo on result lines on the Audit Logging page
+- Fix: Add comments for all translation strings with placeholders
+- Fix: Typo in "Change default admin user account" security recommendation
+- Fix: Typo in "Update PHP to latest version" security recommendation
+
+= 3.11.1 ( 2023-06-12 ) =
+
+- Enhance: Performance improvements
+
+= 3.11.0 ( 2023-05-15 ) =
+
+- New: Autosync Local Blocklists with the Hub Global IP
+- Enhance: Compatibility with PHP 8.2
+- Enhance: Improve 'Hide error reporting' recommendation
+- Enhance: Improve 'Prevent PHP Execution' and 'Prevent Information Disclosure' recommendations on Windows server
+- Enhance: WP-CLI commands for Google reCAPTCHA
+- Enhance: Remove unused plugin core methods
+- Fix: Error when adding a '<' tag in Invite by email Recipients name in all notifications
+- Fix: Not possible to create config with Defender free version if it is not connected to the Hub
+- Fix: Display Undefined message when session expired on Malware Scanning page
+- Fix: Audit Logging > Events logs results are not consistent with different WordPress time settings
+- Fix: Username filters display incorrect results on Audit Logging page
+- Fix: Incorrect message is displayed to user when we enter a '<' tag in banned username and other textarea lockout fields
+- Fix: Button status (color and text) are not changed when Ban Bulk applies on the Firewall Logs page
+- Fix: When session expired and try to login with 2FA TOTP then email and password are empty
+
+= 3.10.1 ( 2023-04-10 ) =
+
+- Fix: Unparsed HTML in email notification templates
+
+= 3.10.0 ( 2023-04-03 ) =
+
+- Enhance: Improve Maxmind country selection flow
+- Enhance: Security improvements in plugin email templates
+- Enhance: Remove declare( strict_types = 1 ); directive to reduce error cases
+- Enhance: Replace old Grunt packages
+- Enhance: Improve Defender admin menu icon
+- Enhance: Rephrase the Fallback email description
+- Enhance: Create hash by reading the file in chunks to save memory
+- Enhance: Update SUI to the latest version
+- Fix: Security Key regeneration cron doesn't take the wp-config.php file's modification date into account
+- Fix: Google reCAPTCHA prevents creating a new member-user with WC Memberships plugin
+- Fix: Google reCAPTCHA error when using the Ultimate Member reCAPTCHA extension with Login enabled
+- Fix: Defender conflicts with Eventlist plugin at checkout step
+
+= 3.9.1 ( 2023-03-14 ) =
+
+- Enhance: Compatibility with WordPress 6.2
+- Enhance: Security improvements
+
+= 3.9.0 ( 2023-02-20 ) =
+
+- Enhance: Remove Hummingbird log from Audit Logging
+- Enhance: Add YARA rule to detect malware
+- Enhance: Improve IP columns
+- Enhance: Minify DateRangePicker JS and CSS files
+- Enhance: Display additional vulnerability data on Malware Scanning page
+- Fix: Defender continuously reports WP core vulnerability even after ignore
+- Fix: File change detection for plugins and WP core not working on Windows
+- Fix: Google reCAPTCHA error when using ProfilePress plugin with Lost Password enabled
+- Fix: Google reCAPTCHA is preventing the submission of the WooCommerce review form
+- Fix: Country flag broken on Defender's Dashboard page if Emojis Remove option selected in Hummingbird
+
+
+202010-1688760421-au

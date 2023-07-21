@@ -1,0 +1,386 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beaver Charts\n"
+"POT-Creation-Date: 2018-10-11 14:56+0530\n"
+"PO-Revision-Date: 2018-09-25 14:24+0530\n"
+"Language-Team: Flickdevs <info@flickdevs.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x:1,2c;_n;_ex;_nx;"
+"esc_attr_e;_n_noop:1,2;esc_attr__;esc_attr_x;esc_html__;esc_html_e;"
+"esc_html_x\n"
+"Last-Translator: \n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: module/bar-chart/bar-chart.php:15 module/bar-chart/bar-chart.php:35
+msgid "Bar Chart"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:16
+msgid ""
+"Bar charts used to display and compare the number, frequency or other "
+"measure (e.g. mean) for different discrete categories of data."
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:17 module/pie-chart/pie-chart.php:19
+msgid "BeaverCharts"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:32 module/pie-chart/pie-chart.php:34
+msgid "General"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:39
+msgid "X - Axis Data"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:40
+msgid "Jan"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:41
+msgid "\"Jan\",\"Feb\",\"Mar\",\"Apr\""
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:42
+msgid "Add Multiple X - Axis data using comma(,) saperator"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:47
+msgid "Y - Axis Data Value"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:56 module/pie-chart/pie-chart.php:50
+msgid "Control Setting"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:59
+msgid "Add Border"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:63
+msgid "Border Width"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:69
+msgid "Border Color"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:76
+msgid "Tag Setting"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:80
+msgid "Display Tag"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:83 module/bar-chart/bar-chart.php:180
+#: module/bar-chart/bar-chart.php:198
+msgid "Yes"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:84 module/bar-chart/bar-chart.php:181
+#: module/bar-chart/bar-chart.php:199
+msgid "No"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:94 module/pie-chart/pie-chart.php:57
+msgid "Tag Position"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:97 module/bar-chart/bar-chart.php:258
+#: module/pie-chart/pie-chart.php:60
+msgid "Top"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:98 module/bar-chart/bar-chart.php:257
+#: module/pie-chart/pie-chart.php:61
+msgid "Bottom"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:99 module/bar-chart/bar-chart.php:171
+#: module/pie-chart/pie-chart.php:62
+msgid "Left"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:100 module/bar-chart/bar-chart.php:172
+#: module/pie-chart/pie-chart.php:63
+msgid "Right"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:105
+msgid "Font Size"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:112
+msgid "Tag Color"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:119
+msgid "Y - Axis Data Control"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:123
+msgid "Y - Axis Label Display"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:126 module/bar-chart/bar-chart.php:189
+#: module/bar-chart/bar-chart.php:212 module/bar-chart/bar-chart.php:266
+msgid "Show"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:127 module/bar-chart/bar-chart.php:190
+#: module/bar-chart/bar-chart.php:213 module/bar-chart/bar-chart.php:267
+msgid "Don`t Show"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:137
+msgid "Y - Axis Label Text"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:138
+msgid "Y - Axis Label"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:142 module/bar-chart/bar-chart.php:228
+msgid "Label Font Size"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:143 module/bar-chart/bar-chart.php:229
+msgid "15"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:147
+msgid "Y - Axis Label Font Color"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:153
+msgid "Y - Axis Callback Value"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:159
+msgid "Y - Axis callback Setting"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:162 module/bar-chart/bar-chart.php:248
+msgid "Suffix"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:163 module/bar-chart/bar-chart.php:249
+msgid "Prefix"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:168
+msgid "Y - Axis Line Position"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:177
+msgid "Y - Axis Value begin at Zero"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:186
+msgid "Y - Axis Grid Line"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:195
+msgid "Y - Axis Value Reverse"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:205
+msgid "X - Axis Data Control"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:209
+msgid "X - Axis Label Display"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:223
+msgid "X - Axis Label Text"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:224
+msgid "X - Axis Label"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:233
+msgid "X - Axis Label Font Color"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:239
+msgid "X - Axis Callback"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:245
+msgid "X - Axis Callback Setting"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:254
+msgid "X - Axis Line Position"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:263
+msgid "X - Axis Grid Line"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:273
+msgid "Tooltip Style"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:277
+msgid "Tooltip Mode Style"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:280
+msgid "Index"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:281
+msgid "Point"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:282
+msgid "Nearest"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:283
+msgid "Dataset"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:284
+msgid "X"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:285
+msgid "Y"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:290
+msgid "Background Color"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:297
+msgid "Title Font Size"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:303
+msgid "Title Color"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:309
+msgid "Title Bottom Space"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:315
+msgid "Body Text Font Size"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:321
+msgid "Body Text Color"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:334
+msgid "Add Chart Data"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:337 module/pie-chart/pie-chart.php:98
+msgid "Layout"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:340
+msgid "BarChart"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:344 module/pie-chart/pie-chart.php:105
+msgid "Tag Name"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:345
+msgid "Title tag"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:349
+msgid "Y - Axis Data"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:350
+msgid "27,43,54,72"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:351
+msgid "27,43,54,72,...."
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:353
+msgid "Add Multiple Y - Axis data using comma(,) saperator"
+msgstr ""
+
+#: module/bar-chart/bar-chart.php:357
+msgid "Bar Color"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:17
+msgid "Pie and Doughnut Chart"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:18
+msgid ""
+"A pie chart and doughnut chart is a circular statistical graphic which is "
+"divided into slices to illustrate numerical proportion"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:37
+msgid "Pie Chart"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:41
+msgid "Pie and Doughnut Chart Data"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:53 module/pie-chart/pie-chart.php:101
+msgid "Chart Settings"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:68
+msgid "Chart Height"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:72
+msgid "Height of Chart"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:77
+msgid "Width"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:81
+msgid ""
+"If you want show doughnut chart then increase width value <br><b>Note:</b> "
+"You can not set width value more then 99"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:95
+msgid "Add Chart Value"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:106
+msgid "Title Tag"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:111
+msgid "Value"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:113
+msgid "50"
+msgstr ""
+
+#: module/pie-chart/pie-chart.php:118
+msgid "Color"
+msgstr ""
